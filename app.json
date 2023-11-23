@@ -1,0 +1,39 @@
+{
+    "name": "سورس ماكس",
+    "description": " اهلا بكم في تنصيب سورس صيد اليوزرات 🔔!",
+    "stack": "container",
+    "repository": "https://github.com/haahjwjq/fidiwub",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github./haahjwjq/fidiwub",
+    "env": {
+        "APP_ID": {
+            "description": "اب ايدي الي انت استخرجته يا صحبي/ APP_ID",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش الي انت استخرجته ياصحبي/APP_HASH",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود الترمكس الي انت استخرجته يا صحبي/TERMUX",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن البوت الي انت عملته ياصحبي/TOKEN",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت من دون @ يا صحبيـ/BOT_USERNAME",
+            "value": "",
+            "required": true
+        }
+    }
+}
